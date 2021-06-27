@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "popular_products",
+  "info": {
+    "name": "popular-product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    }
+  }
+}
